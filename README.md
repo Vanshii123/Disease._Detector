@@ -9,13 +9,9 @@ This project is implemented in Python with Jupyter Notebook and leverages machin
 🚀 Features
 
 Data preprocessing and cleaning for health-related datasets
-
 Training ML models for disease prediction
-
 Model evaluation with accuracy and metrics
-
 Exporting trained model for reuse
-
 Easy-to-use interface via Jupyter Notebook
 
 🛠️ Technologies Used
