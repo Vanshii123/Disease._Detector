@@ -8,7 +8,8 @@ Uses features like Age, Blood Pressure, Cholesterol, Chest Pain Type, ECG result
 Implements data preprocessing, feature selection, and model training.
 Can be extended into a web app or API for real-world usage.
 
-📂 Dataset
+📂 Dataset:
+
 The dataset contains the following columns:
 
 Age → Patient’s age
