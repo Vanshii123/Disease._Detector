@@ -1,76 +1,63 @@
-🩺 Disease Detector
+-->Heart Disease Detector
+This project is a Machine Learning–based Heart Disease Prediction System that uses patient health data to predict the likelihood of heart disease. The model is trained on a dataset with various clinical attributes such as age, blood pressure, cholesterol, chest pain type, and more.
 
-📌 Overview
+📌 Features:
+Predicts presence of heart disease (binary/multi-class target).
+Uses features like Age, Blood Pressure, Cholesterol, Chest Pain Type, ECG results, etc.
+Implements data preprocessing, feature selection, and model training.
+Can be extended into a web app or API for real-world usage.
 
-The Disease Detector is a machine learning project designed to predict diseases based on patient health data. The model is trained using classification techniques to analyze symptoms/medical attributes and provide predictions that can assist in healthcare diagnostics.
+📂 Dataset
+The dataset contains the following columns:
 
-This project is implemented in Python with Jupyter Notebook and leverages machine learning libraries for training and evaluation.
+Age → Patient’s age
+TRestBPS → Resting blood pressure
+CHOL → Serum cholesterol
+FBS → Fasting blood sugar (> 120 mg/dl)
+RestECG → Resting electrocardiographic results
+ThalCH → Thalassemia test result
+ExANG → Exercise induced angina (1 = yes, 0 = no)
+Old B → ST depression induced by exercise
+Slope → Slope of the peak exercise ST segment
+CA → Number of major vessels colored by fluoroscopy
+Thal → Thalassemia status
+Sex Male, Sex Female → Gender of patient
+CP asymptomatic, CP atypical angina, CP non-anginal, CP typical angina → Chest pain type (encoded)
+Target → Heart disease diagnosis (0 = No disease, 1–4 = Disease present)
 
-🚀 Features
+⚙️ Tech Stack
 
-Data preprocessing and cleaning for health-related datasets
-Training ML models for disease prediction
-Model evaluation with accuracy and metrics
-Exporting trained model for reuse
-Easy-to-use interface via Jupyter Notebook
-
-🛠️ Technologies Used
-
-Python 3.x
+Python 🐍
 NumPy, Pandas → Data handling
-Scikit-learn → Machine learning algorithms
-Matplotlib, Seaborn → Visualization
-Joblib → Model persistence
+Matplotlib, Seaborn → Data visualization
+Scikit-learn → Model building & evaluation
+Google Colab → Development & analysis
 
-📂 Project Structure
-Disease_Detector/
-│── Disease_Detector.ipynb   # Main Jupyter Notebook
-│── requirements.txt         # List of dependencies
-│── README.md                # Project documentation
-│── models/                  # Saved ML models
-│── data/                    # Dataset (if available)
+🚀 How to Run
 
-⚙️ Installation
+Clone this repository:
 
-Clone the repository:
-git clone https://github.com/your-username/Disease_Detector.git
-cd Disease_Detector
-
-
-Create and activate a virtual environment (recommended):
-python -m venv venv
-source venv/bin/activate    # On Linux/Mac
-venv\Scripts\activate       # On Windows
-
+git clone https://github.com/your-username/heart-disease-detector.git
+cd heart-disease-detector
 
 Install dependencies:
+
 pip install -r requirements.txt
 
-▶️ Usage
+Run the Jupyter Notebook:
 
-Open Colab Notebook:
+jupyter notebook
 
-Run the Disease_Detector.ipynb file step by step.
+Open the notebook and execute cells step by step.
 
-Train the model and generate predictions.
+📊 Model Training & Accuracy
 
-(Optional) Use the saved model (.pkl file) for deployment in other applications.
+Data preprocessing: handled missing values, encoding, scaling.
+Algorithms tested: Logistic Regression, Decision Trees, Random Forest, SVM.
+Final model: update with your best-performing model & accuracy.
 
-📊 Example Workflow
-Load dataset
-Preprocess data
-Train ML model (Random Forest / Logistic Regression / etc.)
-Evaluate accuracy, confusion matrix
-Save trained model for later usage
+👨‍💻 Author Ishan Mishra 💼 LinkedIn - https://www.linkedin.com/in/vanshika-chauhan-1ba100279/ 📧 Email: rv.chauhan322@gmail.com
 
-🔮 Future Improvements
-Build a Streamlit Web App for user-friendly interaction
-Expand dataset for more disease categories
-Add Deep Learning models for better accuracy
-Deploy on Cloud (AWS/GCP/Heroku)
+🤝 Contribution
 
-👨‍💻 Author
-
-Ishan Mishra
-💼 LinkedIn - https://www.linkedin.com/in/ihrm-ishan/
-📧 Email: ihrm.aiml@gmail.com
+Pull requests are welcome! If you find a bug or want to add a new feature, feel free to fork this repo and submit a PR.
