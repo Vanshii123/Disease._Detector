@@ -87,7 +87,7 @@ Final model: (update with your best-performing model & accuracy).
 👨‍💻 Author
 
 Vanshika Chauhan
-💼 LinkedIn
+💼 LinkedIn: https://www.linkedin.com/in/vanshika-chauhan-1ba100279/
 
 📧 Email: rv.chauhan322@gmail.com
 
