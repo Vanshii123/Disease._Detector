@@ -1,4 +1,5 @@
 -->Heart Disease Detector
+
 This project is a Machine Learning–based Heart Disease Prediction System that uses patient health data to predict the likelihood of heart disease. The model is trained on a dataset with various clinical attributes such as age, blood pressure, cholesterol, chest pain type, and more.
 
 📌 Features:
